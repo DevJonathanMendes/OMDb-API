@@ -1,0 +1,99 @@
+.movie {
+    cursor: pointer;
+    position: relative !important;
+    margin-top: .5rem !important;
+    margin-bottom: .5rem !important;
+}
+
+.detail {
+    position: absolute;
+    padding: 0 .1rem;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 0 0 .5rem .5rem;
+}
+
+.castAndGenre {
+    text-align: start;
+}
+
+.castAndGenre dd {
+    white-space: nowrap;
+    overflow: visible;
+    text-overflow: ellipsis;
+}
+
+#btnHome {
+    cursor: pointer;
+}
+
+#logo {
+    max-width: 240px;
+}
+
+#movieList img {
+    border-radius: .5rem;
+}
+
+#selectedMovie {
+    max-width: 720px;
+    margin: .8rem;
+}
+
+#selectedMovie header {
+    text-align: start;
+}
+
+#selectedMovie h1 {
+    margin: 0;
+}
+
+.plot {
+    text-align: justify;
+}
+
+dd {
+    margin: 0;
+}
+
+.poster {
+    text-align: center;
+}
+
+.poster img {
+    margin-bottom: 1rem;
+    max-width: 240px;
+    border-radius: .7rem;
+}
+
+.ratings div {
+    display: inline-flex;
+    border-radius: 3px;
+    padding: 2px;
+}
+
+.ratings img {
+    border-radius: 3px;
+    max-width: 26px;
+    max-height: 26px;
+}
+
+.ratings p {
+    font-weight: bold;
+    margin: auto;
+}
+
+.imdb {
+    background-color: #E3AC3C;
+    vertical-align: middle;
+    margin: 0 4px;
+}
+
+.rotten {
+    background-color: #FA330A;
+    vertical-align: middle;
+    margin: 0 4px;
+}
